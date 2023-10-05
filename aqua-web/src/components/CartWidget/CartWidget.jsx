@@ -1,9 +1,7 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Importa los estilos de Bootstrap
-
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 export const CartWidget = () => {
-    const itemCount = 5; // Número hardcodeado para representar la cantidad de elementos en el carrito
-
+    const itemCount = 5;
     return (
         <div className="cart-widget">
             <i className="fas fa-shopping-cart"></i> 

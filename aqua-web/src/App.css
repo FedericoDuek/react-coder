@@ -8,23 +8,22 @@ body {
   background-color: #246a73;
   color: #f4ede5;
   text-align: left;
-  padding: 1rem 5; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra en la parte inferior del navbar */
+  padding: 0 1rem ; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5 1rem; /* Agrega un poco de espacio a los lados del contenedor */
+  padding: 0 1rem; 
 }
 
-/* Estilos para los enlaces del navbar */
 .nav-link {
   color: #f4ede5;
   text-decoration: none;
-  margin: 5 1rem; 
-  transition: color 0.3s ease; /* Agrega una transición de color suave */
+  margin: 0 1rem; 
+  transition: color 0.3s ease; 
 }
 
 .nav-link:hover {

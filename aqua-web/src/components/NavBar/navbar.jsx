@@ -1,7 +1,7 @@
 import React from 'react';
-import CartWidget from './CartWidget'; // Importa el componente CartWidget
-import 'bootstrap/dist/css/bootstrap.min.css'; // Importa los estilos de Bootstrap
-import 'aqua-web/src/navbar/navbar.css'; //Importa CSS 
+import CartWidget from './CartWidget'; 
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'aqua-web/src/navbar/navbar.css'; 
 
 export const NavBar = () => {
     return (
@@ -23,7 +23,7 @@ export const NavBar = () => {
                             <a className="nav-link" href="/">Contacto</a>
                         </li>
                         <li className="nav-item">
-                            <CartWidget /> {/* Integra el componente CartWidget en NavBar */}
+                            <CartWidget /> 
                         </li>
                     </ul>
                 </div>
