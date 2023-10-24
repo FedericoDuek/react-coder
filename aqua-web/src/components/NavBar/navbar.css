@@ -2,11 +2,25 @@
     background-color: #246a73;
     color: #f4ede5;
     text-align: left;
-    padding: item 0;
+    padding: 1rem 0; /* Ajusta el espacio interno arriba y abajo según tus necesidades */
 }
 
-.container {
+#navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#navbar a {
+    color: #f4ede5; /* Color del texto para los enlaces del NavBar */
+    text-decoration: none; /* Elimina la subrayado predeterminado de los enlaces */
+    margin: 0 1rem; /* Ajusta el margen entre los enlaces según tus necesidades */
+}
+
+#navbar a:hover {
+    color: #f8b400; /* Cambia el color del texto al pasar el mouse sobre los enlaces */
+}
+
+.cart-widget {
+    /* Estilos para el ícono del carrito de compras en el NavBar si es necesario */
 }

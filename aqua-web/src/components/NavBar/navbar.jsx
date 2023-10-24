@@ -1,29 +1,29 @@
 import React from 'react';
-import CartWidget from './CartWidget'; 
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import 'aqua-web/src/navbar/navbar.css'; 
+import { Link } from 'react-router-dom';
+import CartWidget from './CartWidget';
+import './navbar.css'
 
 export const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
-                <a className="navbar-brand" href="/">Mi Tienda</a>
+                <Link className="navbar-brand" to="/">Mi Tienda</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="/">Inicio</a>
+                            <Link className="nav-link" to="/">Inicio</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/">Productos</a>
+                            <Link className="nav-link" to="/category/1">Productos</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/">Contacto</a>
+                            <Link className="nav-link" to="/contacto">Contacto</Link>
                         </li>
                         <li className="nav-item">
-                            <CartWidget /> 
+                            <CartWidget />
                         </li>
                     </ul>
                 </div>
